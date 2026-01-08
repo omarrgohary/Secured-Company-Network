@@ -1,77 +1,108 @@
-Secure Company Network Design & Implementation using Cisco Packet Tracer 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Secure Company Network Design and Implementation
 
-Project Overview :
-This project demonstrates the design and implementation of a secure enterprise network using Cisco Packet Tracer. The primary focus is on network security, high availability, and scalability, incorporating advanced networking and security configurations to ensure a robust infrastructure.
+**Cisco Packet Tracer**
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-Key Features & Configurations :
-  Network Segmentation & SecurityVLANs with proper access control for network segmentation
-  Access Control Lists (ACLs) to enforce security policies
-  SSH for secure remote access to networking devices
-  STP PortFast & BPDU Guard configured on all access ports
+## Project Overview
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  
-Redundancy & High Availability :
-  EtherChannel (LACP) for link aggregation between switches
-  Hot Standby Router Protocol (HSRP) using two multilayer switches for gateway redundancy
-  DMZ Zone hosting essential services including:
-      FTP Server
-      Web Server
-      Email Server
-      Application Server
-      NAS Storage
+This project presents the design and implementation of a secure enterprise network using **Cisco Packet Tracer**.
+The solution emphasizes **network security**, **high availability**, and **scalability**, incorporating advanced routing, switching, and firewall configurations to deliver a robust and resilient infrastructure.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-Routing & Firewall Security :
-  OSPF & Static Routes for optimized traffic flow and efficient routing
-  Cisco ASA Firewalls ensuring network security:
-  Security zones configured with different interface levels (Inside, DMZ, Outside)
-  NAT (Network Address Translation) for internal and external access
-  Firewall Inspection Policies to regulate traffic flow  
-  Protection of the Inside Zone from unauthorized external access (Internet)
+## Key Features and Configurations
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Network Segmentation and Security
 
-Infrastructure & Services :
-  DHCP Server for dynamic IP assignment (excluding servers)
-  Wireless Network with Wireless Access Points (WAPs) and a Wireless Controller
-  VOIP Integration with two VoIP devices per department for communication
+* VLAN-based network segmentation with controlled inter-VLAN communication
+* Access Control Lists (ACLs) to enforce security policies
+* Secure remote device management using SSH
+* STP PortFast and BPDU Guard enabled on all access ports
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-Tools & Technologies Used :
-  Cisco Packet Tracer (Network Simulation & Implementation)
-  Cisco ASA Firewall (Security & Policy Enforcement)
-  Networking Protocols: OSPF, VLANs, HSRP, EtherChannel, ACLs, DHCP, NAT, and more.
+## Redundancy and High Availability
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* EtherChannel (LACP) for link aggregation between switches
+* Hot Standby Router Protocol (HSRP) using dual multilayer switches for gateway redundancy
+* Dedicated DMZ zone hosting critical enterprise services:
 
-Learning Outcomes :
-  This project helped reinforce key networking concepts, including :
-    Enterprise network security best practices
-    Implementation of firewall policies & access control
-    Ensuring high availability with redundancy techniques
-    Optimized network traffic flow with OSPF & static routing
+  * FTP Server
+  * Web Server
+  * Email Server
+  * Application Server
+  * NAS Storage
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-Feedback & Contributions :
-  I would love to hear your thoughts on this project! Feel free to open issues for suggestions, fork the repository, and contribute improvements.
+## Routing and Firewall Security
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* OSPF and static routing for optimized traffic flow
+* Cisco ASA Firewall deployment for perimeter security
+* Security zones configured with distinct trust levels:
 
-License :
-  This project is licensed under the MIT License – feel free to modify and use it for learning and development.
+  * Inside
+  * DMZ
+  * Outside
+* Network Address Translation (NAT) for internal and external connectivity
+* Firewall inspection policies to regulate traffic flow
+* Protection of the Inside zone from unauthorized external access
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-Connect with Me :
-  Email: omarrmgohary@gmail.com
+## Infrastructure and Services
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* DHCP server for dynamic IP address assignment (excluding servers)
+* Wireless network infrastructure using:
 
+  * Wireless Access Points (WAPs)
+  * Wireless LAN Controller (WLC)
+* VoIP integration with two IP phones per department for enterprise communication
 
+---
+
+## Tools and Technologies Used
+
+* Cisco Packet Tracer (network simulation and implementation)
+* Cisco ASA Firewall (security enforcement and traffic inspection)
+* Networking technologies and protocols:
+
+  * VLANs
+  * OSPF
+  * HSRP
+  * EtherChannel
+  * ACLs
+  * DHCP
+  * NAT
+  * STP
+
+---
+
+## Learning Outcomes
+
+This project reinforced key enterprise networking concepts, including:
+
+* Secure enterprise network design best practices
+* Firewall policy implementation and access control
+* High availability through redundancy mechanisms
+* Efficient routing and traffic optimization using OSPF and static routes
+
+---
+
+## Feedback and Contributions
+
+Feedback and contributions are welcome.
+Feel free to open issues for suggestions, fork the repository, or submit improvements via pull requests.
+
+---
+
+## License
+
+This project is licensed under the **MIT License** and is intended for learning and development purposes.
+
+---
+
+## Contact
+
+* **Email:** [omarrmgohary@gmail.com](mailto:omarrmgohary@gmail.com)
