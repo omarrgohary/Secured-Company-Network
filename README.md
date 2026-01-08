@@ -104,5 +104,5 @@ This project is licensed under the **MIT License** and is intended for learning 
 ---
 
 ## Contact
-
+- **LinkedIn:** [linkedin.com/in/omarelgohary2003](https://www.linkedin.com/in/omarelgohary2003/)
 * **Email:** [omarrmgohary@gmail.com](mailto:omarrmgohary@gmail.com)
